@@ -25,7 +25,7 @@ virtualenv env
 
 source env/bin/activate
 
-pip install transcrypt
+pip3 install transcrypt
 ```
 
 After that you can run Wrangler commands, such as `wrangler publish` to push your code to Cloudflare.  If you exit virtualenv (`deactivate`) and return to the project directory later, you'll need to activate virtualenv (`source env/bin/activate`) but will not need to rerun the other installation commands.
